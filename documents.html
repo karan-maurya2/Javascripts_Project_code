@@ -1,0 +1,86 @@
+ <!-- console  -->
+ We will use console.log() as a tool to test our code.
+ console.log() simply displays information in your JavaScript console or  also used console.log() to access this value.
+
+
+<!-- template literals:-  Its  the part 2015 ecma scripts or es6-->
+New way to denotes string in javascripts by using backticks(` `) or template literals
+
+<!-- Note -->
+Semi colon is option in javascripts.
+
+
+<!-- variable -->
+In real case scenario we may need to store and use data in program not just print, 
+to store data and  use them in later in program , we can used variable.
+
+Variables are containers that store information for later use.
+
+<!-- let language ="javascripts" -->
+
+here "let" is used to create variable (language) and it has string data "javascripts"
+And to store data in variable , we use assignment operator " = "
+
+
+<!-- So far, we have created our variables with the let keyword. -->
+let test = 5;
+
+<!-- You can also create a variable with the const keyword. -->
+const test = 5;
+
+<!-- The difference between the two(let & const) is that
+ you can not assign a new value to a variable that was created with const. -->
+ const num = 2;
+ num = 6;
+ console.log(num);
+
+
+ <!-- You also cannot declare a const-variable without assigning a value to it directly. -->
+ const num;
+num = 5;
+console.log(num);
+
+
+ <!-- But, why should you use const instead of let? -->
+ It is considered good practice to use const for variables whoose value will never change.
+ const pi = 3.14159;
+
+
+ <!-- Introduction to conditional statements -->
+JavaScript conditional allow you to write dynamic and
+ interactive programs that can respond to user input and other changing variables. Let's have a look at how they work.
+<!--  
+ let temperature = 80;
+ console.log(`the temperature is  ${temperature}`);
+
+ if (temperature > 70) {
+     console.log("Outside weather is warm");   
+ } -->
+
+ The if-statement executes a block of code if a certain condition is true.
+It consists of the if keyword followed by a condition in parentheses, and a block of code in curly braces.
+
+ if (Condition) {
+  Block of code
+ }
+
+ <!-- Functions - parameters and arguments (1) -->
+ When you call a function in JavaScript, you can pass values to the function.
+  These values are called arguments. In order to access these arguments, functions can define parameters.
+   Parameters are variables that contain the values of the arguments passed to the function.
+
+   
+const multiply = function (num) {
+    return num * num;
+ };
+  
+ const arg = 5;
+  
+ const result = multiply(arg);
+ console.log(result === 25);
+
+
+ <!-- Create a JavaScript array -->
+ In this exercise, we will create our first JavaScript array. In the code below we declare an array named arr using the so called literal notation.
+  The literal notation is a pair or square brackets that enclose the values that we want to put inside the array: [value, value, ...]. 
+ Each value is separated by a comma. In the context of an array, these values are called the elements of the array.
