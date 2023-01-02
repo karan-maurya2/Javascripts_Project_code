@@ -166,11 +166,117 @@
 // let carName;
 // document.getElementById("demo").innerHTML = carName;
 
-const x =["3", "2", "4"];
+// const y= ["2","4","7"];
 
-const y= ["2",
-"4",
-"7"];
+// const  cars =[];
+
+// cars[0]="sab";
+// cars[1]=1;
+// cars[3]="hello12";
+
+// console.log(cars);
+
+
+// const x =["3", "2", "4"];
+
+// x[4]="karan";
+
+
+//
+
+
+// console.log(typeof person[1] );
+
+//
+
+// // console.log(cars)
+// cars.Friend="Rahul";
+
+// console.log(typeof cars.value);
+
+
+
+// cars[6]="Rahul"
+
+// cars.push("Kajal")
+
+// cars[cars.length]="Raj"
+//  const person =[];
+
+//  person["firstName"] = "John";
+//  person["lastName"] = "Doe";
+//  person["age"] = 46;
+
+//  let x=person.length;
+//  let y=person[0];
+//  console.log(x);
+//  console.log(y);
+
+// const person =["Karan", "Saraah", 520134]
+
+// const cars={Name:"Karan", value:4321, Last:"Maurya" }
+
+
+// let x=person.pop();
+// delete person[0];
+
+
+// console.log(person);
+
+
+// const myGirls = ["Cecilie", "Lone"];
+// const myBoys = ["Emil", "Tobias", "Linus"];
+
+// const person = myGirls.concat(myBoys);
+
+
+// console.log(person);
+
+// const ReverseString = str => [...str].reverse().join('');
+//  
+// let x=(ReverseString("Geeks for Geeks"));
+
+// console.log(x);
+
+
+// const person  = [40, 100, 1, 5, 25, 10];
+
+
+// let x=person.sort(function(a , b) 
+// {
+//    return b-a;
+// });
+
+// let y=x.reverse();
+// console.log(x);
+
+
+// var obj={
+//     name:"karan",
+//     display: function(){
+  
+//       console.log(this.name)
+//     },
+//   };
+  
+//   var obj1={
+//     name:"ABC",
+//   };
+  
+//   obj.display()
+
+// setTimeout(function () {
+//     console.log("Good morning");
+//   }, 2000);
+
+
+let obj = { id: "1", name: "user22", age: "26", work: "programmer" };
+
+
+console.log(Object.values(obj));
+
+
+
 
 
 
