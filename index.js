@@ -270,10 +270,170 @@
 //   }, 2000);
 
 
-let obj = { id: "1", name: "user22", age: "26", work: "programmer" };
+// let obj = { id: "1", name: "user22", age: "26", work: "programmer" };
 
 
-console.log(Object.values(obj));
+// console.log(Object.values(obj));
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// let x=fruits.toString();
+
+// console.log(x);
+
+
+
+// let x= cars[cars.lenght-1]
+// console.log(cars.length);
+// console.log(cars.sort());
+
+// // let x=cars.push("Karan");
+// var cars=["Karan", "Rahol", "RIYA"];
+// // cars[3]="rahul"
+// // cars[cars.lenght]="Rahul";
+
+
+// let x= typeof fruits;
+
+
+// let x=Array.isArray(fruits);
+// let x= fruits.toString();
+// let x= fruits.join("@");
+// let x= fruits.pop();
+// let x= fruits.push("Deepak");
+// let x= fruits.push("Deepak");
+// let x= fruits.shift();
+// let x= fruits.unshift("Saraah");
+// let x= fruits[fruits.lenght]="Nida"
+
+// console.log(fruits[fruits.lenght]="Nida");
+//  let x=fruits[fruits.length]="lulu";
+
+// const fruits=["Karan", "Rahul", "Kajal"];
+// const Veg=["pea","tomato","cabbage"];
+// const cars=["volvo", "maruti","ford"];
+
+// let x= fruits.concat(Veg);
+// let y=cars.concat(Veg, fruits);
+// let Z=cars.concat("DEEP", "PIG");
+// console.log(x);
+// console.log(y);
+// console.log(Z);
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.splice(2, 0, "Lemon", "Kiwi");
+// fruits.splice(0,1) ;
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+//   let x=fruits.toString();
+// let x;
+// x=5;
+
+// let x= myfuction(3, 5)
+// function myfuction(a, b) {
+//     return a*b;
+// }
+
+// const x=["2", "4", "3", "1"];
+// const z=["d", "b", "a", "c"];
+// let r=z.sort().reverse();
+// let y=x.sort().reverse();
+// console.log(y);
+// console.log(r);
+
+// const abc={
+//     name:"Karan",
+//     number: 123,
+//     Age:25,
+//     Rollno:"BCAMCA"
+// }
+
+// let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+// let x = text.length;
+
+
+// let x= "we are so-called \"Maurya\" from the north."
+// let y= "we are so-called \'Maurya\' from the north."
+// let z= "we are so-called \\ from the north."
+// console.log(x);
+// console.log(y);
+// console.log(z);
+
+// let x="john"
+
+// console.log(x);
+
+// let y=new String("John");
+// console.log(y);
+
+// function calcAge(age) {
+// 	return age*365;
+// }
+
+// let x=6;
+// if(x>0){
+// 	console.log(calcAge(x));
+// }
+
+// const words = ["thaw", "achievement", "gain", "outlet", "difference"]
+
+// let x=words.filter(word => word.length < 5);
+// let y=words.map(word => word.length < 5);
+// console.log(x);
+// console.log(y);
+
+
+// function addition(num) {
+// 	// const numPlusOne = num + 1
+//     // return numPlusOne;
+// 	// return num +=1;
+//     // return ++num;
+
+//     return num+1;
+// }
+
+// function cubes(a) {
+// 	return a ** 3
+// }
+
+// function cubes(a) {
+// 	return Math.pow(a,3);
+// }
+
+//  const cubes=a=>a**3
+
+// const cubes = a => a * a * a;
+
+// const cubes=(a)=>{
+//     return a**3;
+// }
+
+let x=5;
+console.log(cubes(x));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
