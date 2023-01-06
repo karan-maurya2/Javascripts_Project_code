@@ -407,13 +407,79 @@
 //     return a**3;
 // }
 
-let x=5;
-console.log(cubes(x));
+// const findPerimeter = (h,w) => h + w << 1
+// let x=5;
+// let y=6;
+// function findPerimeter(height, width) {
+// 	return(2*(height+width));
+// }
+// console.log(findPerimeter(6, 4));
+// console.log(findPerimeter(x, y));
 
 
+// function nextEdge(side1, side2) {
+// 	if(side1 > 0 && side2 > 0) {
+// 		return (side1 + side2) - 1;
+// 	}else {
+// 		return;
+// 	}
+// }
+// function nextEdge(side1,side2){
+//     let result = (side1 + side2) -1;
+
+//     return result
+// }
+
+// function nextEdge(side1, side2) {
+//     return (side1 + side2) - 1;	
+//     }
+    
+//     let x, y;
+//     if(x>0 & y>0){
+//     console.log(nextEdge(x, y))}
 
 
+// console.log(null); // null
+// console.log(typeof null); // object
 
+
+// console.log(undefined); // undefined
+// console.log(typeof undefined); // undefined
+
+
+// console.log(null == undefined); // true
+
+// console.log(null === undefined); // false
+
+// console.log(9-"5");
+// console.log(typeof (9-"5"));
+
+// console.log(Number.MAX_VALUE); // 1.7976931348623157e+308
+// console.log(Number.MIN_VALUE); // 5e-324
+
+
+// let s = 'JavaScript';
+// s[0] = 'j';
+// console.log(s)
+
+// let s1 = Symbol();
+// console.log(Symbol() == Symbol());
+
+// let num=0o71;
+// let numm=070;
+// let z=num+numm;
+
+// console.log(z);
+// console.log(num);
+// console.log(numm);
+
+let text="thas is karan maurya is good boy"
+
+let x= text.indexOf("is");
+
+let y= text.match(/as/is/g);
+console.log(y);
+console.log(x);
 
 
 

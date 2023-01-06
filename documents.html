@@ -1,3 +1,26 @@
+<!-- JavaScript documents -->
+
+JavaScript is a programming language initially designed to interact with elements of web pages.
+ In web browsers, JavaScript consists of three main parts:
+
+ECMAScript provides the core functionality.
+The Document Object Model (DOM) provides interfaces for interacting with elements on web pages
+The Browser Object Model (BOM) provides the browser API for interacting with the web browser.
+
+JavaScript allows you to add interactivity to a web page.
+ Typically, you use JavaScript with HTML and CSS to enhance a web page’s functionality, such as validating forms,
+creating interactive maps, and displaying animated charts.
+
+When a web page is loaded, i.e., after HTML and CSS have been downloaded, the JavaScript engine in the web browser executes the JavaScript code.
+ The JavaScript code then modifies the HTML and CSS to update the user interface dynamically.
+The JavaScript engine is a program that executes JavaScript code. In the beginning, JavaScript engines were implemented as interpreters.
+However, modern JavaScript engines are typically implemented as just-in-time compilers that compile JavaScript code to bytecode for improved performance.
+
+<!-- Client-side vs. Server-side JavaScript -->
+When JavaScript is used on a web page, it is executed in web browsers. In this case, JavaScript works as a client-side language.
+JavaScript can run on both web browsers and servers. A popular JavaScript server-side environment is Node.js.
+ Unlike client-side JavaScript, server-side JavaScript executes on the server that allows you to access databases, file systems, etc.
+
  <!-- console  -->
  We will use console.log() as a tool to test our code.
  console.log() simply displays information in your JavaScript console or  also used console.log() to access this value.
@@ -14,13 +37,47 @@ Semi colon is option in javascripts.
 In real case scenario we may need to store and use data in program not just print, 
 to store data and  use them in later in program , we can used variable.
 
+A variable is a label that references a value like a number or string. 
+Before using a variable, you need to declare it.
+
+The word "variable" means "can change"; they're used to store values that can change.
+
 Variables are containers that store information for later use.
+JavaScript is a dynamically typed language.
+This means that you don’t need to specify the variable’s type in the declaration like other static typed languages such as Java or C#.
+JavaScript is a dynamically typed language. It means that a variable doesn’t associate with a type. 
+In other words, a variable can hold a value of different types. 
 
 <!-- let language ="javascripts" -->
 
 here "let" is used to create variable (language) and it has string data "javascripts"
 And to store data in variable , we use assignment operator " = "
 
+
+<!-- Undefined vs. undeclared variables -->
+It’s important to distinguish between undefined and undeclared variables.
+
+<!-- An undefined variable is a variable that has been declared but has not been initialized with a value. For example: -->
+
+let message;
+console.log(message); // undefined
+Code language: JavaScript (javascript)
+
+In this example, the message variable is declared but not initialized. Therefore, the message variable is undefined.
+
+<!-- In contrast, an undeclared variable is a variable that has not been declared. For example: -->
+
+console.log(counter);
+Code language: JavaScript (javascript)
+
+Output:
+
+console.log(counter);
+            ^
+ReferenceError: counter is not defined
+Code language: JavaScript (javascript)
+
+In this example, the counter variable has not been declared. Hence, accessing it causes a ReferenceError
 
 <!-- So far, we have created our variables with the let keyword. -->
 let test = 5;
@@ -42,6 +99,7 @@ console.log(num);
 
 
  <!-- But, why should you use const instead of let? -->
+ Use the const keyword to define a readonly reference to a value.
  It is considered good practice to use const for variables whoose value will never change.
  const pi = 3.14159;
 
@@ -79,6 +137,17 @@ const multiply = function (num) {
  const result = multiply(arg);
  console.log(result === 25);
 
+ <!-- Equality comparison  -->
+
+ Even though two different objects can have the same properties with equal values,
+they are not considered equal when compared using either the loose or
+strict equality operators (== or ===). This is because arrays and objects in JavaScript are compared by reference. 
+This is unlike primitive values which are compared by value.
+
+ const a = { name: 'John', age: 26 };
+ const b = { name: 'John', age: 26 };
+ 
+ a === b; // false
 
  <!-- Create a JavaScript array -->
  In this exercise, we will create our first JavaScript array. In the code below we declare an array named arr using the so called literal notation.
