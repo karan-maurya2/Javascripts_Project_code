@@ -275,7 +275,7 @@
 
 // console.log(Object.values(obj));
 
-// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
 // let x=fruits.toString();
 
 // console.log(x);
@@ -301,8 +301,11 @@
 // let x= fruits.pop();
 // let x= fruits.push("Deepak");
 // let x= fruits.push("Deepak");
+// console.log(fruits);
 // let x= fruits.shift();
-// let x= fruits.unshift("Saraah");
+// const fruits=["Karan", "rahul", "deepak","Kajal"]
+// let x= fruits.unshift();
+// console.log(fruits);
 // let x= fruits[fruits.lenght]="Nida"
 
 // console.log(fruits[fruits.lenght]="Nida");
@@ -322,9 +325,12 @@
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];
 // fruits.splice(2, 0, "Lemon", "Kiwi");
 // fruits.splice(0,1) ;
+// console.log(fruits);
 
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];
 //   let x=fruits.toString();
+//   let y=fruits.join("@");
+//   console.log(y);
 // let x;
 // x=5;
 
@@ -349,6 +355,7 @@
 
 // let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 // let x = text.length;
+
 
 
 // let x= "we are so-called \"Maurya\" from the north."
@@ -473,13 +480,211 @@
 // console.log(num);
 // console.log(numm);
 
-let text="thas is karan maurya is good boy"
 
-let x= text.indexOf("is");
 
-let y= text.match(/as/is/g);
-console.log(y);
-console.log(x);
+// let x= text.indexOf("g");
+// console.log(x);
+
+
+// console.log(y);
+
+// let x= text.replace("thas", "this")
+// let x= text.toUpperCase();
+//  let x =text.toLowerCase()
+
+// let text="thas is honey is shit girl"
+
+// let x=text.split(",");
+
+// console.log(x); 
+// let y= text.match(/shi/g);
+
+// let x=3.14e5;
+// console.log(x);
+// let y=123e-8;
+
+// let x = "100";
+// let y=10;
+// let z= x/y;
+// console.log(isNaN(z));
+// // console.log(y);
+
+
+
+// let text = num.toString(8);
+// console.log(text );
+// console.log(typeof text);
+
+// let y=(123).valueOf();
+// let z =(100+23).valueOf();
+
+// let x=num.toExponential();
+// let x=num.toFixed();
+// let x=num.toPrecision();
+// let y = new Date("2017-09-30");
+// let x=Number(y)
+
+// let num = 123.599999;
+
+// console.log(Math.PI); // RETUEN I value.
+
+// let x=(0, 150, 30, 20, -8, -200);
+
+// console.log(Math.round(num));
+// console.log(num.toFixed());
+// console.log(num.toPrecision());
+// console.log(Math.pow(x, y));
+// console.log(Math.sqrt(y));
+// console.log(Math.abs(num));
+// console.log(Math.ceil(x));
+// console.log(Math.floor(x));
+// console.log(Math.sin((60 * Math.PI / 180)));
+// console.log(Math.max(0, 150, 30, 20, -8, -200));
+// console.log(Math.min(0, 150, 30, 20, -8, -200));
+// console.log((Math.random()*11));
+
+// let x= new Date();
+// // let y= x.getFullYear();
+// // let y=x.getTime()
+// // let y=x.getHours()
+
+
+// // let y=x.getMilliseconds().
+
+// // let y=x.getUTCDate();
+
+// // let y=x.getSeconds();
+// // let y=x.getMinutes()
+// // let y=x.getDay();
+// // let y=x.getMonth();
+// // let y=x.getHours()
+// let y=x.getTime()
+// // let y=x.setFullYear(2020);
+// // let y=x.getDay();
+// // let y =x.toUTCString();
+// let z=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+// let u=z[x.getDay()]
+// console.log(x);
+// console.log(y);
+// console.log(u);
+
+
+// let x=new Date();
+
+// let y=["1","2", "3", "4","5","6","7","8","9","10","11","12"]
+// // let y=x.getSeconds();
+// let z=y[x.getMonth()];
+// console.log(z);
+
+
+
+// let today=new Date();
+// let h = today.getHours();
+// let m = today.getMinutes();
+// let s = today.getSeconds();
+
+// let z= h+m+s;
+
+// console.log("Today now time is :" + h +":"+m+":"+s );
+
+
+// function date() {
+
+// var time = new Date(); 
+// let x=time. getHours() + ":" + time.getMinutes() + ":" + time.getSeconds();
+// checkTime(m);
+// checkTime(s);
+// document.getElementById("semo").innerHTML=x;
+// setTimeout(date, 1000);
+// }
+
+// function checkTime(i) {
+//     if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+//     return i;
+//   }
+
+
+// const arr=["karan", "kajal","Rahul", "dEeepak"];
+
+// let x=arr instanceof Array;
+
+// let y=Array.isArray(arr)
+// console.log(x);
+// console.log(y);
+
+// let x=["Banana", "Orange", "Apple", "Mango"]
+
+
+// let y=x.sort();
+// console.log(y);
+// let z=y.reverse();
+// console.log(z);
+
+// let s=[ 02, 43,19, 203,23, 30, 90]
+
+// // for numbered array we can follow above method also
+// let x=s.sort(function(a, b)
+// {return b-a});
+
+// console.log(x);
+
+// let s=[ 102, 43,19, 203,23, 30, 90]
+
+// let x=s.sort(function (a,b) {
+//      return b-a
+    
+// });
+
+// let y=x[0];
+
+// console.log(y);
+
+// let s=[ 102, 43,19, 203,23, 30, 90]
+
+// let x=Math.min(s);
+
+// console.log(x);
+
+// let b =20;
+// console.log(window.b);
+
+//  // enter new scope, TDZ starts
+//     let log = function () {
+//         console.log(message); // messagedeclared later
+//     };
+
+//     // This is the TDZ and accessing log
+//     // would cause a ReferenceError
+
+//     let message= 'Hello'; // TDZ ends
+//     log(); // called outside TDZ
+
+function createDiv(height = '100px', width = '100px', border = 'solid 1px red') {
+    let div = document.createElement('div');
+    div.style.height = height;
+    div.style.width = width;
+    div.style.border = border;
+    document.body.appendChild(div);
+    return div;
+}
+createDiv();
+
+
+
+
+
+// let y=("a", "e", "f","b","d","k");
+
+
+
+
+
+
+
+
+
+
+
 
 
 
