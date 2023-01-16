@@ -3,11 +3,11 @@
 JavaScript is a programming language initially designed to interact with elements of web pages.
  In web browsers, JavaScript consists of three main parts:
 
-ECMAScript provides the core functionality.
+<!-- ECMAScript provides the core functionality. -->
 The Document Object Model (DOM) provides interfaces for interacting with elements on web pages
 The Browser Object Model (BOM) provides the browser API for interacting with the web browser.
 
-JavaScript allows you to add interactivity to a web page.
+<!-- JavaScript allows you to add interactivity to a web page. -->
  Typically, you use JavaScript with HTML and CSS to enhance a web page’s functionality, such as validating forms,
 creating interactive maps, and displaying animated charts.
 
@@ -23,7 +23,15 @@ JavaScript can run on both web browsers and servers. A popular JavaScript server
 
  <!-- console  -->
  We will use console.log() as a tool to test our code.
- console.log() simply displays information in your JavaScript console or  also used console.log() to access this value.
+ console.log() simply displays information in your JavaScript console or  also used console.log() to access "this" value.
+
+ <!-- Logging -->
+ <!-- function log() -->
+ One way to find errors is logging. During program execution, selective outputs are made. To do this in JavaScript,
+  use the console.log function: 
+
+  <!-- append  -->
+  add (something) to the end of a written document.
 
 
 <!-- template literals:-  Its  the part 2015 ecma scripts or es6-->
@@ -125,7 +133,37 @@ It consists of the if keyword followed by a condition in parentheses, and a bloc
   Block of code
  }
 
- <!-- Functions - parameters and arguments (1) -->
+ <!-- Functions - -->
+ A function is a block of statements that can be executed as often as you like.
+  A function can have parameters and can return a value. Functions can be defined in different ways.
+ Perhaps the most common one is the function declaration. It starts with the keyword function. It follows:
+
+ the name of the function as below " color"
+ the parameters enclosed in round parentheses,
+ the statements enclosed in curly brackets.
+
+With the keyword "return" a value can be returned.
+ At the same time return terminates the function. 
+ Statements after a return will not be executed.
+
+ If the function is assigned to a variable(result), the function is called via this variable.
+Functions are defined once so that they can be used multiple times at different program points by calling them.
+    
+ function color() {
+    return 'red';
+    console.log("Hello World"); // it will now print in console bcoz of return.
+  }
+
+  let result = color();
+
+  <!-- we define a function that simply returns the parameter input.
+     Parameters are variables , so if you return string instead of variable u will get wrong result -->
+
+     function give(input) {
+        return input;  // "input"// output will be  as "input" only
+      }
+
+   <!-- parameters and arguments (1) -->
  When you call a function in JavaScript, you can pass values to the function.
   These values are called arguments. In order to access these arguments, functions can define parameters.
    Parameters are variables that contain the values of the arguments passed to the function.
@@ -144,15 +182,69 @@ const multiply = function (num) {
 
  Even though two different objects can have the same properties with equal values,
 they are not considered equal when compared using either the loose or
-strict equality operators (== or ===). This is because arrays and objects in JavaScript are compared by reference. 
+strict equality operators (==(Equality based on value) or ===(Strict equality based on value and its data  type)). This is because arrays and objects in JavaScript are compared by reference. 
 This is unlike primitive values which are compared by value.
 
- const a = { name: 'John', age: 26 };
- const b = { name: 'John', age: 26 };
- 
- a === b; // false
+<!-- Object and array  is a reference variable -->
+
+const a = { name: 'John', age: 26 };
+const b = { name: 'John', age: 26 };
+
+ console.log( a === b);  // false
+ console.log( a.name === b.name);  // true
+ console.log( a.name === b.age);  // false
+ console.log( a.age === b.age);  // true
+
+
+ const c=["a", "b" ,"c"];
+
+ const d=["a", "b" ,"c"];
+
+ console.log( c === d); // false
+ console.log( c[0] === d[0]); // true
+
+ <!-- What is string in JavaScript? -->
+JavaScript strings are for storing and manipulating text. 
+A JavaScript string is a collection of zero or more characters or word written inside quotes(single or double);
+
+<!-- What are the methods of string object? -->
+All String Methods
+Method  	    Description	                                    Return Type
+toLowerCase()	Converts a string to lower case letters	        String
+toString()	    Returns the value of a String object	        String
+toUpperCase()	Converts a string to upper case letters	        String
+trim()	        Removes whitespace from both ends of a string	String
+
+<!-- What is meant by string object in JavaScript? -->
+The String object lets you work with a series of characters; 
+it wraps Javascript's string primitive data type with a number of helper methods(like above method)
+As JavaScript automatically converts between string primitives and String objects,
+you can call any of the helper methods of the String object on a string primitive
+
+
+ <!-- What are comparison operators and logical operators? -->
+ Comparison operators — operators that compare values and return true or false . 
+ The operators include: > , < , >= , <= , === , and !== .
+  Logical operators — operators that combine multiple boolean expressions or values
+   and provide a single boolean output as true or false.JavaScript has three Boolean 
+   operators: && (and), || (or) and ! (not). && 
+
 
  <!-- Create a JavaScript array -->
  In this exercise, we will create our first JavaScript array. In the code below we declare an array named arr using the so called literal notation.
   The literal notation is a pair or square brackets that enclose the values that we want to put inside the array: [value, value, ...]. 
  Each value is separated by a comma. In the context of an array, these values are called the elements of the array.
+
+ An array is a special variable, which can hold more than one value:
+ const cars = ["Saab", "Volvo", "BMW"];
+
+ An array can hold many values under a single name, and you can access the values by referring to an index number.
+ const cars = ["Saab", "Volvo", "BMW"];
+ let car = cars[0];
+
+ Arrays are a special type of objects. The typeof operator in JavaScript returns "object" for arrays.
+ Because of this, you can have variables of different types in the same Array.
+You can have objects in an Array. You can have functions in an Array. You can have arrays in an Array:
+let languages = ['C', 'C++', 'Java'];
+let primes = [2, 3, 5, 7, 11];
+let emptyArray = [];
